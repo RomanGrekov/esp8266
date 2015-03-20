@@ -20220,9 +20220,9 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <segment>
 <pinref part="U1" gate="G$1" pin="DATA"/>
 <wire x1="88.9" y1="-5.08" x2="134.62" y2="-5.08" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="-5.08" x2="134.62" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="SV3" gate="1" pin="2"/>
-<wire x1="134.62" y1="50.8" x2="127" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="-5.08" x2="134.62" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="SV3" gate="1" pin="3"/>
+<wire x1="134.62" y1="53.34" x2="127" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GPIO0" class="0">
@@ -20232,10 +20232,14 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="7.62" y1="20.32" x2="81.28" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="20.32" x2="81.28" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="22.86" x2="114.3" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="SV3" gate="1" pin="3"/>
-<wire x1="127" y1="53.34" x2="137.16" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="137.16" y1="53.34" x2="137.16" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="55.88" x2="137.16" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="22.86" x2="114.3" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="SV3" gate="1" pin="4"/>
+<wire x1="127" y1="55.88" x2="137.16" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="55.88" x2="144.78" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="55.88" x2="144.78" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="SV4" gate="1" pin="7"/>
+<wire x1="144.78" y1="22.86" x2="162.56" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$27" class="0">
@@ -20408,15 +20412,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="142.24" y1="58.42" x2="142.24" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="SV4" gate="1" pin="6"/>
 <wire x1="142.24" y1="25.4" x2="162.56" y2="25.4" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$44" class="0">
-<segment>
-<pinref part="SV3" gate="1" pin="4"/>
-<wire x1="127" y1="55.88" x2="144.78" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="144.78" y1="55.88" x2="144.78" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="SV4" gate="1" pin="7"/>
-<wire x1="144.78" y1="22.86" x2="162.56" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$36" class="0">

@@ -14662,8 +14662,8 @@ Source: http://www.cypress.com .. 38-12025_0P_V.pdf</description>
 <smd name="2" x="-0.65" y="4.525" dx="1.75" dy="0.4" layer="1" rot="R90"/>
 <text x="-4" y="0.1" size="0.762" layer="25" rot="R90">&gt;NAME</text>
 <text x="4" y="0.1" size="0.762" layer="27" rot="R90" align="top-left">&gt;VALUE</text>
-<pad name="P$3" x="-2.725" y="1.7" drill="1.2" diameter="2" shape="square"/>
-<pad name="P$4" x="2.725" y="1.7" drill="1.2" diameter="2" shape="square"/>
+<pad name="P$3" x="-5.265" y="1.7" drill="1.2" diameter="2" shape="square"/>
+<pad name="P$4" x="5.265" y="1.7" drill="1.2" diameter="2" shape="square"/>
 <hole x="-2.425" y="4.73" drill="1.05"/>
 <hole x="2.425" y="4.73" drill="1.05"/>
 <wire x1="-3.75" y1="5" x2="-3.25" y2="5" width="0.127" layer="21"/>

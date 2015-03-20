@@ -16908,8 +16908,8 @@ Source: http://www.cypress.com .. 38-12025_0P_V.pdf</description>
 <smd name="2" x="-0.65" y="4.525" dx="1.75" dy="0.4" layer="1" rot="R90"/>
 <text x="-4" y="0.1" size="0.762" layer="25" rot="R90">&gt;NAME</text>
 <text x="4" y="0.1" size="0.762" layer="27" rot="R90" align="top-left">&gt;VALUE</text>
-<pad name="P$3" x="-2.725" y="1.7" drill="1.2" diameter="2" shape="square"/>
-<pad name="P$4" x="2.725" y="1.7" drill="1.2" diameter="2" shape="square"/>
+<pad name="P$3" x="-5.265" y="1.7" drill="1.2" diameter="2" shape="square"/>
+<pad name="P$4" x="5.265" y="1.7" drill="1.2" diameter="2" shape="square"/>
 <hole x="-2.425" y="4.73" drill="1.05"/>
 <hole x="2.425" y="4.73" drill="1.05"/>
 <wire x1="-3.75" y1="5" x2="-3.25" y2="5" width="0.127" layer="21"/>
@@ -22214,13 +22214,13 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <parts>
 <part name="IC1" library="v-reg" deviceset="LD117A?*" device="S" technology="33TR"/>
 <part name="ESP8266" library="con-lstb" deviceset="MA04-2" device=""/>
-<part name="C1" library="rcl" deviceset="CPOL-US" device="E2-4" value="10uF"/>
+<part name="C1" library="rcl" deviceset="CPOL-US" device="E2-4" value="100nF"/>
 <part name="C2" library="rcl" deviceset="CPOL-US" device="E2-4" value="22uF"/>
 <part name="R1" library="rc-master" deviceset="R_" device="0805" value="20K"/>
 <part name="R2" library="rc-master" deviceset="R_" device="0805" value="20K"/>
 <part name="R5" library="rcl" deviceset="R-EU_" device="0204/5" value="500"/>
 <part name="S1" library="switch-omron" deviceset="10-XX" device=""/>
-<part name="C3" library="rcl" deviceset="C-EU" device="C0805"/>
+<part name="C3" library="rcl" deviceset="C-EU" device="C0805" value="10uF"/>
 <part name="C4" library="capacitor-wima" deviceset="C" device="5/2.5" value="10uF"/>
 <part name="U1" library="RHT03_DHT-22_AM2302" deviceset="RHT03_DHT-22_AM2302" device=""/>
 <part name="SV1" library="con-lstb" deviceset="MA03-1" device=""/>
